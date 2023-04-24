@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.DataFragment"
-    android:background="#4BF12C">
+    android:background="#4BF12C"
+    android:gravity="center">
 
-        <ImageView
-            android:id="@+id/Peacock"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/peacock"
-            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/button_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button_Click"/>
 
 </LinearLayout>

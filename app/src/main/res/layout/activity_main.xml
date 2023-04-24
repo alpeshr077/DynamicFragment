@@ -6,17 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <FrameLayout
+   <fragment
+       android:id="@+id/datastore"
+       android:name="com.alpesh1.dynamicfragment.Fragment.DataFragment"
        android:layout_width="match_parent"
-       android:layout_height="match_parent">
-
-      <fragment
-          android:id="@+id/Peacock"
-          android:name="com.alpesh1.dynamicfragment.Fragment.DataFragment"
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:layout_margin="10dp"/>
-
-   </FrameLayout>
+       android:layout_height="match_parent"/>
 
 </LinearLayout>
